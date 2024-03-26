@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <h2>YouTube Video Downloader</h2>
+    <label for="url">Video-URL:</label>
+    <form action="/" method="post">
+        <input type="text" id="url" name="url">
+        <button type="submit" name="resolution" value="720p">720p Download</button>
+        <button type="submit" name="resolution" value="1080p">1080p Download</button>
+        <br><br>
+    </form>
+
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
+
