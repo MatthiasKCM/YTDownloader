@@ -22,7 +22,7 @@ install dependencies...
 
 ## Usage
 ```
-type in terminal python(3) main.py, and start the sevrer.
+type in terminal python(3) main.py, and start the flask development server.
 ```
 
 ## Legal Notice
